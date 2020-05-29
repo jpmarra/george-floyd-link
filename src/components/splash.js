@@ -21,12 +21,20 @@ const SplashWrapper = styled(motion.section)`
 
   .hero {
     ${h2Header};
+
+    ${below.sm`
+      font-size: 30px;
+  `}
   }
 
   .sub-hero {
     ${h4Header};
     margin-top: 10px;
     margin-bottom: 20px;
+    ${below.sm`
+      margin: 0;
+      margin-bottom: 5px;
+  `}
   }
 
   .site-credit {
@@ -36,6 +44,9 @@ const SplashWrapper = styled(motion.section)`
     color: #7d7d78;
     bottom: 0;
     font-size: 12px;
+    ${below.sm`
+      display: none;
+  `}
     a {
       color: #7d7d78;
     }

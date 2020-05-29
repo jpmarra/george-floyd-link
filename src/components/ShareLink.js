@@ -6,9 +6,13 @@ const StyledLink = styled.a`
   text-decoration: none;
   width: 80%;
   margin: 5px 0;
+
+  ${below.sm`
+    margin: 3px 0;
+  `}
   .button-wrap {
     padding: 3px;
-    height: 60px;
+    height: 40px;
     position: relative;
     background: linear-gradient(to right, #f743b6, #fcc043);
     border-radius: 5px;
