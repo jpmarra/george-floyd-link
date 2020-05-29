@@ -20,23 +20,13 @@ const SplashWrapper = styled(motion.section)`
   flex-direction: column;
 
   .hero {
-    ${h1Header};
-
-    ${below.sm`
-      ${h2Header};
-
-    `}
+    ${h2Header};
   }
 
   .sub-hero {
-    ${h3Header};
+    ${h4Header};
     margin-top: 10px;
     margin-bottom: 20px;
-    ${below.sm`
-      ${h4Header};
-          margin-top: 10px;
-         margin-bottom: 20px;
-    `}
   }
 
   .site-credit {
