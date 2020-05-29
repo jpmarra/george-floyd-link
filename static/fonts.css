@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Geogrotesque Medium";
+  font-style: normal;
+  src: url("/fonts/Geogrotesque-semi-bold-italic.WOFF") format("woff");
+}
+
+@font-face {
+  font-family: "Geogrotesque Regular";
+  font-style: normal;
+  src: url("/fonts/Geogrotesque-Thin-Regular.WOFF") format("woff");
+}
