@@ -11,8 +11,8 @@ export const h1Header = css`
 export const h2Header = css`
     font-family: "Oswald", "Verdana", "Helvetica";
     font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     margin: 0;
     text-align: center;
 `
@@ -28,8 +28,8 @@ export const h3Header = css`
 export const h4Header = css`
     font-family: "Abel", "Verdana", "Helvetica";
     font-weight: 200;
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 20px;
     margin: 0;
 `
 
