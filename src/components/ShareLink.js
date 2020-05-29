@@ -4,12 +4,9 @@ import { Black, White, h4Header, Body1, below } from "../styles/utilities/"
 
 const StyledLink = styled.a`
   text-decoration: none;
-  width: 300px;
+  width: 80%;
   height: 60px;
   margin: 5px 0;
-  ${below.md`
-      width: 80%;
-    `}
   .button-wrap {
     padding: 3px;
     position: relative;
