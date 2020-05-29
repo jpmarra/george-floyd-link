@@ -28,9 +28,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
-        custom: {
-          families: ["Geogrotesque Regular", "Geogrotesque Medium"],
-          urls: ["fonts.css"],
+        google: {
+          families: ["Oswald", "Abel"],
         },
       },
     },

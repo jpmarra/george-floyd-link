@@ -1,9 +1,8 @@
 import React from "react"
-import { motion } from "framer-motion"
 import styled from "styled-components"
 import { Black, White, h4Header, Body1, below } from "../styles/utilities/"
 
-const StyledLink = styled(motion.a)`
+const StyledLink = styled.a`
   text-decoration: none;
   width: 300px;
   height: 60px;
@@ -35,8 +34,6 @@ const StyledLink = styled(motion.a)`
 const ShareLink = ({ children, link, label }) => (
   <StyledLink
     aria-label={label}
-    whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}
     href={link}
     className="social-link"
     target="_blank"

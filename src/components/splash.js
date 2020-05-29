@@ -13,6 +13,7 @@ import {
 const SplashWrapper = styled(motion.section)`
   width: 100%;
   height: 100%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +37,18 @@ const SplashWrapper = styled(motion.section)`
           margin-top: 10px;
          margin-bottom: 20px;
     `}
+  }
+
+  .site-credit {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #7d7d78;
+    bottom: 0;
+    font-size: 12px;
+    a {
+      color: #7d7d78;
+    }
   }
 `
 
@@ -85,6 +98,28 @@ export const Splash = () => {
       >
         Reclaim The Block
       </ShareLink>
+      <ShareLink
+        label="North Star Health Collective"
+        link="https://www.northstarhealthcollective.org//"
+      >
+        North Star Health Collective
+      </ShareLink>
+      <ShareLink
+        label="UATL Arrest Resource"
+        link="http://upagainstthelaw.org/jail-solidarity/"
+      >
+        If You're Arrested
+      </ShareLink>
+      <span className="site-credit">
+        Site created by{" "}
+        <a
+          href="https://www.jpmarra.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          JP Marra
+        </a>
+      </span>
     </SplashWrapper>
   )
 }
