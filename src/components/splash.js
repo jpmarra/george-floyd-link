@@ -64,16 +64,28 @@ export const Splash = () => {
       <h1 className="hero">Justice for Big Floyd</h1>
       <h2 className="sub-hero">text "FLOYD" to 55156</h2>
       <ShareLink
+        label="Black Visions Collective"
+        link="https://www.blackvisionsmn.org/"
+      >
+        Black Visions Collective
+      </ShareLink>
+      <ShareLink
+        label="Reclaim The Block"
+        link="https://www.reclaimtheblock.org/home/#about"
+      >
+        Reclaim The Block
+      </ShareLink>
+      <ShareLink
         label="Official George Floyd Memorial Fund"
         link="https://www.gofundme.com/f/georgefloyd"
       >
         Official Memorial Fund
       </ShareLink>
       <ShareLink
-        label="Minnesota Freedom Fund"
-        link="https://minnesotafreedomfund.org/donate"
+        label="Nationwide Protest Bail Funds"
+        link="https://www.dsa-la.org/support_floyd_protests_nationwide"
       >
-        Minnesota Freedom Fund
+        Nationwide Bail Funds
       </ShareLink>
       <ShareLink
         label="Justice For Big Floyd Calls"
@@ -86,18 +98,6 @@ export const Splash = () => {
         link="https://www.justiceforbigfloyd.com/#petition"
       >
         Petition for Justice
-      </ShareLink>
-      <ShareLink
-        label="Black Visions Collective"
-        link="https://www.blackvisionsmn.org/"
-      >
-        Black Visions Collective
-      </ShareLink>
-      <ShareLink
-        label="Reclaim The Block"
-        link="https://www.reclaimtheblock.org/home/#about"
-      >
-        Reclaim The Block
       </ShareLink>
       <ShareLink
         label="North Star Health Collective"
